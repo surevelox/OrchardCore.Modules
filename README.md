@@ -1,5 +1,5 @@
 # OrchardCore.Modules
-Premium Modules for Premium Content Management System - Orchard Core CMS (and not available for WordPress)
+Premium Modules for Premium Content Management System - Orchard Core CMS
 
 
 
