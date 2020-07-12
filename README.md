@@ -3,7 +3,8 @@ Premium Modules for Premium Content Management System - Orchard Core CMS (and no
 
 
 
- ## 1. [Device Preview](./DevicePreview/readme.md)
+ ## 1. [Device Preview](DevicePreview/README.md)
+
  
 Live preview your production ready pages on different devices. Preview your content in various form factor and test without leaving content edit screen.  
 
