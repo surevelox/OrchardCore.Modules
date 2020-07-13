@@ -32,7 +32,7 @@ Include in your Recipe to enable the feature by default
 
 Or use Menu `Admin - Setup - Features` in Admin UI and search for `Device Preview` and click `Enable`.
 
-![Device Preview Feature](images/screen-1.gif)
+![Device Preview Feature](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/DevicePreview/images/screen-1.gif)
 
 ## Like?  Support Us.
 
