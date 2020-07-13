@@ -32,5 +32,4 @@ Include in your Recipe to enable the feature by default
 
 Or use Menu `Admin - Setup - Features` in Admin UI and search for `Device Preview` and click `Enable`.
 
-
-
+![Device Preview Feature](images/screen-1.gif)
