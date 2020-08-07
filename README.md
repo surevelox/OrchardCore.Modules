@@ -10,3 +10,5 @@ Live preview your production ready pages on different devices. Preview your cont
 
 The Device Preview module enables live content preview on Smartphone, Tablet, Laptop and Desktop.
 
+ ## 2. [Template Editor (Coming soon) ](TemplateEditor/README.md)
+Monaco based template editor for Template and AdminTemplate feature. Template editor allows you to view all your templates file in single screen, allowing you to edit in Monaco editor and provide live preview all in same screen.
