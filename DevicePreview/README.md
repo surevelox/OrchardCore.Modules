@@ -1,5 +1,9 @@
 # Device Preview - Surevelox.OrchardCore.DevicePreview
 
+>**What's New in 1.0.0**<br/> 
+>Supports OrchardCore CMS >= 1.0.0<br/>
+>Added Support for OrchardCore Admin Dark mode.<br>
+
 
 ## Install
 
