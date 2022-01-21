@@ -3,6 +3,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="OrchardCore" Version="1.0.0-rc2-13450" />
+    <PackageReference Include="OrchardCore" Version="1.2.1" />
   </ItemGroup>
 </Project>
