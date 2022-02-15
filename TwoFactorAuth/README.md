@@ -45,7 +45,7 @@ Include in Setup Recipe to enable the feature by default.
 
 Or use Menu `Admin - Configuration - Features` in Admin UI and search for `Two Factor Auth` and click `Enable`.
 
-<img src="https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/TwoFactorAuth/images/" width="100%">
+<img src="https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/TwoFactorAuth/images/screen-001.gif" width="100%">
 
 ## Like?  Support Us.
 
