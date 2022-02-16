@@ -1,11 +1,13 @@
 # Two Factor Authentication - Surevelox.OrchardCore.TwoFactorAuth
 
-Two factor authentication module for Orchard Core CMS. With two factor authentication (also known as 2-Step Verification ) add an extra layer of security to your orchard core and protect user accounts in event when password is compromised.
+Two factor authentication module for [Orchard Core CMS](https://github.com/OrchardCMS/OrchardCore). With two factor authentication (also known as 2-Step Verification ) add an extra layer of security to your orchard core and protect user accounts in event when password is compromised.
+
+## Key Features
 
 Supports
 - Google Authenticator App
 - Microsoft Authenticator App
-- Supports login with recovery codes
+- Login using recovery codes incase you don't have access to authenticator app
 
 
 Supported ASP,NET Core Frameworks
@@ -43,10 +45,15 @@ Include in Setup Recipe to enable the feature by default.
  ]
 ```
 
-Or use Menu `Admin - Configuration - Features` in Admin UI and search for `Two Factor Auth` and click `Enable`.
+Or use Menu `Admin - Configuration - Features` in Admin UI and search for `Two Factor Authentication` and click `Enable`.
 
-<img src="https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/TwoFactorAuth/images/screen-001.gif" width="100%">
+![Two Factor Authentication](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/TwoFactorAuth/images/screen-001.gif)
+
+
+## Feedback
+See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.
+
 
 ## Like?  Support Us.
 
-Like the Two Factor Auth module? Support us by sponsoring  [Surevelox @ Github](https://github.com/sponsors/surevelox).  
+Like the Two Factor Authentication module? Support us by sponsoring  [Surevelox @ Github](https://github.com/sponsors/surevelox).  
