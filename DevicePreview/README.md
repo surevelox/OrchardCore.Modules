@@ -1,11 +1,8 @@
 # Device Preview - Surevelox.OrchardCore.DevicePreview
 
-Device Preview module for Orchard Core CMS. This module adds an ability to see live preview for different devices while editing content item.
+Device Preview module for [Orchard Core CMS](https://github.com/OrchardCMS/OrchardCore). This module adds an ability to see live preview for different devices while editing content item.
 
-Supported ASP,NET Core Frameworks
-- NET 6.0
-- NET 5.0
-- NET Core 3.1
+## Key Features
 
 Supported Device Sizes:
 - Mobile: 375 X 667
@@ -16,6 +13,11 @@ Supported Device Sizes:
 Supported orientation:
 - Landscape
 - Portrait
+
+Supported ASP,NET Core Frameworks
+- NET 6.0
+- NET 5.0
+- NET Core 3.1
 
 ## What's New 
 - Supports OrchardCore CMS >= 1.2.0
@@ -54,7 +56,11 @@ Include in Setup Recipe to enable the feature by default.
 
 Or use Menu `Admin - Configuration - Features` in Admin UI and search for `Device Preview` and click `Enable`.
 
-<img src="https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/DevicePreview/images/screen-1.gif" width="100%">
+![Device Preview](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/DevicePreview/images/screen-1.gif)
+
+## Feedback
+See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.
+
 
 ## Like?  Support Us.
 
