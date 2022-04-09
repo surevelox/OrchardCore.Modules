@@ -20,5 +20,21 @@ Supports
 - Microsoft Authenticator App
 - Supports login with recovery codes
 
- ## 3. [Template Editor (Coming soon) ](TemplateEditor/README.md)
+## 3. [Hosting](Hosting/README.md)
+
+Hosting module for Orchard Core CMS. 
+
+Features (Planned)
+- Self-service tenant registration
+- Fully customizable tenant registration pages  
+- Pay Now and provision service 
+- Save Payment method to charge later
+
+Features (backlog)
+- Billing per service billing by User (licensed)
+- Billing by usage (metered)
+- Provision Add-on services and add-on charges
+
+ 
+ ## 4. [Template Editor (Coming soon) ](TemplateEditor/README.md)
 Monaco based template editor for Template and AdminTemplate feature. Template editor allows you to view all your templates file in single screen, allowing you to edit in Monaco editor and provide live preview all in same screen.
