@@ -17,5 +17,5 @@ Features (Planned)
 
 ### Design tenant registration pages
 
-![Device Preview](./images/design.PNG)
+![Device Preview](./images/design.png)
 
