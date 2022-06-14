@@ -16,13 +16,14 @@ Supported orientation:
 
 Supported ASP,NET Core Frameworks
 - NET 6.0
-- NET 5.0
-- NET Core 3.1
 
 ## What's New 
-- Supports OrchardCore CMS >= 1.2.0
-- Added support for .NET 6
-- and Bug fixes
+- Supports OrchardCore CMS >= 1.3.0
+- Removed support for .NET 5 and .NETCore 3.1
+- Added support for license key. 
+ 
+> If your Orchard Core deployment is running on Orchard Core CMS <= 1.2.2 then use version 1.2
+
 
 
 ## Install
