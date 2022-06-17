@@ -35,6 +35,13 @@ Features (backlog)
 - Billing by usage (metered)
 - Provision Add-on services and add-on charges
 
+## 4. [Hosting](Licensing/README.md)
+
+Licensing module provides license infrastructure for licensed modules. Site owner add license key for modules that requires license to run. Module developer can utilize API to read and validate license key stored.  
+
+## 5. [Hosting](Payment/README.md)
+
+Receive payments using stripe. Sync stripe data with web-hooks. Ready to use card, transaction shapes for Orchard Core.
  
- ## 4. [Template Editor (Coming soon) ](TemplateEditor/README.md)
+ ## 6. [Template Editor (Coming soon) ](TemplateEditor/README.md)
 Monaco based template editor for Template and AdminTemplate feature. Template editor allows you to view all your templates file in single screen, allowing you to edit in Monaco editor and provide live preview all in same screen.
