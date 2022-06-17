@@ -19,18 +19,14 @@ Supported ASP,NET Core Frameworks
 
 ## What's New 
 - Supports OrchardCore CMS >= 1.3.0
-- Removed support for .NET 5 and .NETCore 3.1
+- Dropped support for .NET 5 and .NETCore 3.1
 - Added support for license key. 
  
-> If your Orchard Core deployment is running on Orchard Core CMS <= 1.2.2 then use version 1.2
-
-
+> If your Orchard Core deployment is running on Orchard Core CMS <= 1.3 then use version 1.2
 
 ## Install
 
 Add `Surevelox.OrchardCore.DevicePreview` to your Orchard Core CMS Web project
-
-
 
 ```bash
 
