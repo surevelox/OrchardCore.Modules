@@ -35,11 +35,11 @@ Features (backlog)
 - Billing by usage (metered)
 - Provision Add-on services and add-on charges
 
-## 4. [Hosting](Licensing/README.md)
+## 4. [Licensing](Licensing/README.md)
 
 Licensing module provides license infrastructure for licensed modules. Site owner add license key for modules that requires license to run. Module developer can utilize API to read and validate license key stored.  
 
-## 5. [Hosting](Payment/README.md)
+## 5. [Payment](Payment/README.md)
 
 Receive payments using stripe. Sync stripe data with web-hooks. Ready to use card, transaction shapes for Orchard Core.
  
