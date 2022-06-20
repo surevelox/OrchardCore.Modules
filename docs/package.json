@@ -1,0 +1,20 @@
+{
+  "name": "OrchardCore.Modules",
+  "version": "0.0.1",
+  "description": "Premium Modules for Premium Content Management System - Orchard Core CMS",
+  "main": "index.js",
+  "authors": {
+    "name": "Surevelox Inc"
+  },
+  "repository": "https://github.com/surevelox/OrchardCore.Modules/OrchardCore.Modules",
+  "scripts": {
+    "dev:docs": "vuepress dev src",
+    "build:docs": "npm run clean:docs && vuepress build src"
+	"clean:docs": "node ./build/clean.js ",
+
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
