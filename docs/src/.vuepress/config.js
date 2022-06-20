@@ -12,6 +12,7 @@ module.exports = {
   
   dest: '../.wwwroot',
 
+  base : '/OrchardCore.Modules/',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
