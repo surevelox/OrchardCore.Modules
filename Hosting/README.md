@@ -20,7 +20,7 @@ Features (Planned)
 
 ### Design tenant registration pages
 
-![Design tenant Registration](./images/design.png)
+![Design tenant Registration](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/Hosting/images/design.png)
 
 ### Documentation
 
