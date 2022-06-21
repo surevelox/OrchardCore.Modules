@@ -55,6 +55,9 @@ Or use Menu `Admin - Configuration - Features` in Admin UI and search for `Two F
 
 ![Two Factor Authentication](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/TwoFactorAuth/images/screen-001.gif)
 
+### Documentation
+
+Read the [documentation here](https://surevelox.github.io/OrchardCore.Modules/)
 
 ## Feedback
 See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.

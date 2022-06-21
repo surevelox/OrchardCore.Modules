@@ -50,16 +50,19 @@ Include in Setup Recipe to enable the feature by default.
 
 ### Add Licensing support in your module
 
-#### 1. Implement `ILicenseValidator` 
-Implement `Validate` method, this method is called when user adds license key in Admin UI.
+#### 1. Implement `ILicenseHandler` 
+Implement `CanHandle` and `Handle` method, this method is called when user adds license key in Admin UI.
 
 ```cs
-    internal class LicenseValidator : ILicenseValidator
+    internal class LicenseHandler : ILicenseHandler
     {
-        public void Validate(LicenseValidationContext context, 
-            out LicenseStatus? status, out string id, 
-            out DateTime? createdUtc, out DateTime? expiredUtc, 
-            out string[] features)
+         public bool CanHandle(string licenseKey)
+        {
+            return true;
+        }
+        public void Handle(LicenseValidationContext context,
+            out LicenseStatus? status, out string id, out DateTime? issuedUtc, out DateTime? expiresUtc,
+            out Dictionary<string, object> policies)
         {
             var key = context.LicenseKey;
 
@@ -73,12 +76,12 @@ Implement `Validate` method, this method is called when user adds license key in
                 // get the license and polices from encrypted license file 
                 status = LicenseStatus.Valid;
                 // Read from your license
-                createdUtc = license.Created;
+                issuedUtc = license.IssuedOn;
                 // Read from your license 
-                expiredUtc = license.Exires;
+                expiredUtc = license.ExpiresOn;
                 // add your feature list 
-                features = new string[] { "feature1", "feature2" };
-                id = "lic/mylicensevalidator/" + Guid.NewGuid().ToString();
+                features = policies["features"];
+                id = "lic/my-product/" + license.Id;
             }
             else
             {
@@ -94,15 +97,18 @@ Implement `Validate` method, this method is called when user adds license key in
     }
 ```
 
-#### 2. Register `ILicenseValidator` in startup 
+#### 2. Register `ILicenseHandler` in startup 
 
 ```cs
      services.AddOrchardCms()
                 .ConfigureServices( svc=>
                 {
-                    svc.AddScoped<ILicenseValidator, LicenseValidator>();
+                    svc.AddScoped<ILicenseHandler, LicenseHandler>();
                 });
 ```
+### Documentation
+
+Read the [documentation here](https://surevelox.github.io/OrchardCore.Modules/)
 
 ## Feedback
 See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.
