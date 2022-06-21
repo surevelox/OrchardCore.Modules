@@ -37,13 +37,13 @@ Include in Setup Recipe to enable the feature by default.
 ```
 
 
-### Payment
+### Setup Payment
 
 ![Payment](https://raw.githubusercontent.com/surevelox/OrchardCore.Modules/master/Payment/images/screen-1.gif)
 
 ### Documentation
 
-Read the [documentation here](https://github.com/surevelox/OrchardCore.Modules/tree/master/Payment/docs/README.md)
+Read the [documentation here](https://surevelox.github.io/OrchardCore.Modules/)
 
 ## Feedback
 See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.

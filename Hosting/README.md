@@ -22,6 +22,9 @@ Features (Planned)
 
 ![Design tenant Registration](./images/design.png)
 
+### Documentation
+
+Read the [documentation here](https://surevelox.github.io/OrchardCore.Modules/)
 
 ## Feedback
 See the [open issues](https://github.com/surevelox/OrchardCore.Modules/issues) for a list of proposed features and known issues.

@@ -24,7 +24,6 @@ Supports
 
 Hosting module for Orchard Core CMS. 
 
-Features (Planned)
 - Self-service tenant registration
 - Fully customizable tenant registration pages  
 - Pay Now and provision service 
