@@ -46,8 +46,8 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Github',
+        link: 'https://https://github.com/surevelox/OrchardCore.Modules/'
       }
     ],
     sidebar: {
