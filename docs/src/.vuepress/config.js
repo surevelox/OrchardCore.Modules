@@ -41,10 +41,10 @@ module.exports = {
         text: 'Guide',
         link: '/guide/',
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
+      //{
+        //text: 'Config',
+        //link: '/config/'
+      //},
       {
         text: 'Github',
         link: 'https://https://github.com/surevelox/OrchardCore.Modules/'
@@ -57,7 +57,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'requirement',
+            'getting-started',
+           'modules'
           ]
         }
       ],
