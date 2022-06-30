@@ -13,7 +13,9 @@ cookbook (workspaceroot)
 │   │   task.json
 └───cookbook.web
     │   cookbook.web.csproj
-    │   program.cs
+    │   ...
+    │   ...
+    │   Program.cs
 ```
 
 ## Install code generation templates
