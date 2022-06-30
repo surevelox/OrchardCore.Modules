@@ -1,4 +1,4 @@
-# Modules
+# Available Modules
 
 Following modules are currently available 
 
@@ -9,6 +9,5 @@ Following modules are currently available
 |Licensing   |Licensing| All Tenants|
 |Payment     |Payment| All Tenants|
 |Two-factor Authentication|Two Factor Authentication| All Tenants |
-
 
 
