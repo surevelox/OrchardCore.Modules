@@ -34,10 +34,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
+    repo: "surevelox/OrchardCore.Modules",
+    docsDir: 'docs/src',
+    editLinks: true,
+    editLinkText: 'Edit in GitHub',
     lastUpdated: false,
     nav: [
       {
@@ -47,10 +47,6 @@ module.exports = {
       {
         text: "Modules",
         link: "/modules/",
-      },
-      {
-        text: "Github",
-        link: "https://https://github.com/surevelox/OrchardCore.Modules/",
       },
     ],
     sidebar: {
