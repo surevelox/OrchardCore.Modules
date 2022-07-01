@@ -38,7 +38,7 @@ module.exports = {
     docsDir: 'docs/src',
     editLinks: true,
     editLinkText: 'Edit in GitHub',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
         text: "Guide",
