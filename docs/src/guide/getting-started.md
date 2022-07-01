@@ -2,16 +2,10 @@
 
 Getting started with Surevelox OrchardCore Modules is easy. All modules published on nuget are fully functional and free to evaluate in non-commercial environment. However these packages are protected by evaluation license. The trial is valid for 30 days. 
 
-To install a module you need to 
-
-- Create new OrchardCore Host project or use existing. 
-- Add Nuget package reference of module you want to use.
-- Add Nuget package reference of dependent modules.
-- Enable features via recipe or Feature management UI. 
 
 ## Create
 
-If you already have Orchard Core host project, proceed to `Install` otherwise create OrchardCore CMS host project using Orchard Core templates a following
+If you already have Orchard Core host project, proceed to `Install`. Otherwise, create OrchardCore CMS host project using Orchard Core templates a following
 
 ```dotnetcli
 dotnet new occms
@@ -21,7 +15,12 @@ To learn more about [Orchard Core code generation templates](https://docs.orchar
 
 ## Install
 
-To install and consume any of the Surevelox Orchard module is to add nuget reference to Orchard Core host project.
+To install any module,
+
+- Create new OrchardCore host project or use existing. 
+- Add Nuget package reference of the desired module in the host project.
+- If needed, optionally add Nuget package reference of dependent modules.
+- Enable features via recipe or Feature management UI. 
 
 ### Using .NET CLI
 
@@ -52,11 +51,11 @@ For example to install `DevicePreview`
 
 ### Using Feature Management UI
 
-To enable the features, login as administrator. In Admin dashboard, from left navigation menu, select `Configuration > Features` and navigate to feature management UI. Search for the feature by name( e.g. Device Preview ) you want to enable and click Enable button.
+To enable the features, login to OrchardCore site as administrator. In Admin dashboard, from navigation menu, select `Configuration > Features`. Now, search for the feature you want to enable by name (e.g. Device Preview.). Next to the desired feature, click on Enable button to enable the feature.
 
 ### Using Recipe Step
 
-Add `feature` recipe step with features you want to enable, e.g. to enable `DevicePreview` feature in recipe use following.
+Add `feature` recipe step with features you want to enable. For example, to enable `DevicePreview` feature in recipe use following.
 
 ```json
 {

@@ -1,5 +1,5 @@
 # OrchardCore.Modules
-Premium Modules for Premium Content Management System - Orchard Core CMS
+Premium Modules for Premium Content Management System - Orchard Core CMS. Visit the [documentations](https://surevelox.github.io/OrchardCore.Modules/) page more details.
 
 
 
@@ -40,7 +40,7 @@ Licensing module provides license infrastructure for licensed modules. Site owne
 
 ## 5. [Payment](Payment/README.md)
 
-Receive payments using stripe. Sync stripe data with web-hooks. Ready to use card, transaction shapes for Orchard Core.
+Receive payments using Stripe. Sync Stripe data with web-hooks. Ready to use card, transaction shapes for Orchard Core.
  
  ## 6. [Template Editor (Coming soon) ](TemplateEditor/README.md)
 Monaco based template editor for Template and AdminTemplate feature. Template editor allows you to view all your templates file in single screen, allowing you to edit in Monaco editor and provide live preview all in same screen.
