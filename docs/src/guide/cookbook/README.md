@@ -2,9 +2,9 @@
 
 ## Objective
 
-In this section we will be building the development environment and setting up ASP.NET core Orchard Core host project. We'll be also setting up the default tenant using Blog recipe.
+In this section we will be creating the development environment and setting up ASP.NET 6 as Orchard Core host project. We'll be also setting up the default tenant using the `Blog` recipe.
 
-At the end of this section you will have your project directory structure will look like following
+At the end of this section the project directory structure look as follow
 
 ```
 cookbook (workspaceroot)
@@ -30,7 +30,7 @@ dotnet new -i OrchardCore.ProjectTemplates::1.4.0
 
 ## Create Orchard Core CMS host project
 
-Using code generation template, create Orchard Core CMS Web App.  Use following command to create Orchard Core CMS host ASP.NET Web project. In command line open a directory where you what you place your project files. We'll call the `workspaceFolder`. In example below our `workspaceFolder` is `cookbook`
+Using code generation template, create Orchard Core CMS Web App. Use the following command to create a new Orchard Core CMS host project. Using the command line, change current directory to where you want to create your project files. For the sake of this tutorial we'll use `workspaceFolder` to refer to the path of the project. In example below, our `workspaceFolder` is `cookbook`
 
 ```dotnetcli
 dotnet new occms -o cookbook.web
@@ -139,7 +139,7 @@ Add following content to `launch.json`
 }
 ```
 
-## Run and setup Default Tenant
+## Run and setup the Default Tenant
 
 Click on `Run > Start Debugging` to run and setup your Default tenant.
 
@@ -147,13 +147,13 @@ Click on `Run > Start Debugging` to run and setup your Default tenant.
 
 If you are not using `vscode`, you can also run the project using .NET CLI `dotnet run` command.
 
-This will launch a default browser window and will navigate to `https://localhost:5001`. If it doesn't open the browser window automatically, then you can also open your browser and navigate to `https://localhost:5001`. 
+This will launch a default browser window and will navigate to `https://localhost:5001`. If it doesn't open the browser window automatically, then you can also open your browser and manually navigate to `https://localhost:5001` while the project is running. 
 
-It will display setup screen as below. Here, enter required fields. For our example we are selecting `Blog` recipe. 
+It will display the setup screen as below. Here, enter all the required fields. For this example we will select the `Blog` recipe. 
 
 ![Setup Orchard Core CMS Default tenant](./images/occms-setup.gif)
 
-Once setup is complete, It will redirect to home page of the Blog site as below. Login as admin into admin dashboard and verify everything is working.
+Once setup is complete, It will redirect to home page of the Blog site as you below. Login as administrator into admin dashboard and verify everything is working.
 
 ![Orchard Core CMS running Host Web App](./images/occms-admin.gif)
 

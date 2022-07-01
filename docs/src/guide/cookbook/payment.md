@@ -4,15 +4,15 @@
 
 In this section we will be installing and configuring the [Payment Module](/modules/payment) and enable the `Payments` feature.  
 
-Note that All Surevelox OrchardCore Modules are dependent on [Licensing](/modules/licensing) module and requires that `License Management` feature is enabled.  If you have not already configured Licensing, follow [Add License Management](licensing) section.
+Note, all of Surevelox OrchardCore Modules are dependent on [Licensing](/modules/licensing) module and requires that `License Management` feature is enabled.  If you have not already configured Licensing, follow [Add License Management](licensing) section.
 
-At the end of this section you will have `Payment` module installed and have `Payments` feature enabled and you can configure your [Stripe](https://stripe.com) settings for Test and Production.
+At the end of this section, you will be adding the `Payment` module to your Orchard project and enabling the `Payments` feature. Finally, you will be able to configure your [Stripe](https://stripe.com) settings for Test and Production.
 
 ## Install Payment
 
-From `workspaceroot` navigate to `cookbook.web` and using .net cli install nuget package reference for payment module.
+From `workspaceroot` navigate to `cookbook.web`. Using the ".net cli", add nuget package reference for Licensing module.
 
-Run following command to install latest version of Payment Module.
+Run following command to add latest version of the Payment Module.
 
 ```dotnetcli
 cd cookbook.web
@@ -23,15 +23,15 @@ This will add the package reference to `cookbook.web.csproj`
 
 ## Enable Payments
 
-Run the `cookbook.web` application, Login into admin dashboard and open `Configuration -> Features`. Search for "payment" and Enable the `Payments` feature.
+Run the `cookbook.web` application. While Logged in as administrator, go to the admin dashboard. Using the navigate menu go to `Configuration > Features`. In the search box, type "payment". Next to the `Payments` feature, click on Enable button to enable the feature.
 
 ![Enable Payments](./images/payment-enable.gif)
 
-Once enabled, you will see new menu `Finances`. It will also add evaluation license in `License Manager` for the `Payments` feature. Verify that evaluation license is added and it's validated  not expired.
+Once enabled, you will see new menu named `Finances`. It will also add evaluation license in `License Manager` for the `Payments` feature. Verify that evaluation license is added and it is validated and not expired.
 
 ![Evaluation License key](./images/license-evaluation.gif)
 
-Click and it expand open `Stripe` menu. Click on `Stripe` to open stripe configuration and save your Keys for `Test` 
+To configure `Stripe` integration, from the menu navigate to `Finances > Payment Providers > Stripe`. Here, provide your Stripe keys.
 
 ![Payments](./images/payment-success.gif)
 

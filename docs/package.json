@@ -1,5 +1,5 @@
 {
-  "name": "OrchardCore.Modules",
+  "name": "orchardcore.modules",
   "version": "0.0.1",
   "description": "Premium Modules for Premium Content Management System - Orchard Core CMS",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "dev:docs": "vuepress dev src",
     "build:docs": "npm run clean:docs && vuepress build src",
-	  "clean:docs": "node ./build-doc/clean.js "
+    "clean:docs": "node ./build-doc/clean.js "
   },
   "license": "MIT",
   "devDependencies": {
