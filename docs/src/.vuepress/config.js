@@ -1,4 +1,7 @@
 const { description } = require("../../package");
+const path = require("path");
+const layout = path.resolve(__dirname, "./LiveLayout.vue");
+console.log(layout);
 
 module.exports = {
   /**
@@ -35,9 +38,9 @@ module.exports = {
    */
   themeConfig: {
     repo: "surevelox/OrchardCore.Modules",
-    docsDir: 'docs/src',
+    docsDir: "docs/src",
     editLinks: true,
-    editLinkText: 'Edit in GitHub',
+    editLinkText: "Edit in GitHub",
     lastUpdated: true,
     nav: [
       {
@@ -63,9 +66,10 @@ module.exports = {
             "cookbook/", // '1. Setting up Development'],
             "cookbook/licensing", // '2. Add License Management'],
             "cookbook/payment", // 3. Configure Payment'],
-            "cookbook/plan-recipes", // '4. Design Plan &  Recipes'],
-            "cookbook/tenant-registration", // '5. Design Tenant Registration'],
-            "cookbook/tenant-billing", // '6. Use Tenant Billing']
+            "cookbook/device-preview", // 4. Configure Preview'],
+            "cookbook/plan-recipes", // '5. Design Plan &  Recipes'],
+            "cookbook/tenant-registration", // '6. Design Tenant Registration'],
+            "cookbook/tenant-billing", // '7. Use Tenant Billing']
           ],
         },
       ],
@@ -98,5 +102,13 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [screenLeft
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    ["live", { layout: layout }],
+  ],
+
+  markdown: {
+    lineNumbers: true,
+  },
 };

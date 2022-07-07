@@ -1,1 +1,1 @@
-# 5. Design Tenant Registration
+# 6. Design Tenant Registration
