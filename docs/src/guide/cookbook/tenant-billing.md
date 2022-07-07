@@ -1,1 +1,1 @@
-# 6 Using Tenant Billing
+# 7. Using Tenant Billing

@@ -10,7 +10,7 @@ At the end of this section, you will be adding the `Payment` module to your Orch
 
 ## Install Payment
 
-From `workspaceroot` navigate to `cookbook.web`. Using the ".net cli", add nuget package reference for Licensing module.
+From `workspaceroot` navigate to `cookbook.web`. Using the ".net cli", add nuget package reference for Payment module.
 
 Run following command to add latest version of the Payment Module.
 
