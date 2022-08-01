@@ -56,7 +56,7 @@ Let's design the landing page for Pricing.
             </ul>
     	</div>   
         <div class="card-footer py-3">
-			<a type="button" class="w-100 btn btn-lg btn-primary" href="/tenant/signup?plan=silver">Sign up for Silver</a>
+			<a type="button" class="w-100 btn btn-lg btn-primary" href="/tenant/signup?RecipeName=silver">Sign up for Silver</a>
 		</div>
     </div>
 </div>
@@ -84,7 +84,7 @@ Let's design the landing page for Pricing.
             </ul>
         </div>
         <div class="card-footer py-3">
-            <a class="w-100 btn btn-lg btn-primary" href="/tenant/signup?plan=gold">Sign up for Gold</a>
+            <a class="w-100 btn btn-lg btn-primary" href="/tenant/signup?RecipeName=gold">Sign up for Gold</a>
 		</div>
     </div>
 </div>
@@ -114,7 +114,7 @@ Let's design the landing page for Pricing.
             </ul>
         </div>
 	    <div class="card-footer py-3">
-            <a class="w-100 btn btn-lg btn-primary" href="/tenant/signup?plan=platinum">Sign up for Platinum</a>
+            <a class="w-100 btn btn-lg btn-primary" href="/tenant/signup?RecipeName=platinum">Sign up for Platinum</a>
 		</div>
     </div>
 </div>
