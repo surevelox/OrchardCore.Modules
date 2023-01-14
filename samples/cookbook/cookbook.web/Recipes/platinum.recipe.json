@@ -1,0 +1,42 @@
+{
+    "name": "platinum",
+    "displayName": "Platinum Plan",
+    "description": "Recipe for Platinum Plan",
+    "author": "Surevelox Inc",
+    "website": "https://www.surevelox.com",
+    "version": "1.0",
+    "issetuprecipe": "true",
+    "categories": [ "Content Management" ],
+    "tags": [ "plan", "hidden" ],
+    "variables": {
+    },
+    "steps": [
+      {
+        "name": "recipes",
+        "Values": [
+          {
+            "executionid": "agency001",
+            "name": "Agency"
+          }
+        ]
+      },
+      {
+        "name": "feature",
+        "enable": [
+          "Surevelox.OrchardCore.Licensing",
+          "Surevelox.OrchardCore.DevicePreview",
+          "Surevelox.OrchardCore.TwoFactorAuth",
+          "OrchardCore.AdminTemplates",
+          "OrchardCore.Facebook",
+          "OrchardCore.Facebook.Login",
+          "OrchardCore.Google.GoogleAuthentication",
+          "OrchardCore.Seo",
+          "OrchardCore.Microsoft.Authentication.MicrosoftAccount",
+          "OrchardCore.Microsoft.Authentication.AzureAD",
+          "OrchardCore.GitHub.Authentication",
+          "OrchardCore.Twitter",
+          "OrchardCore.Twitter.Signin"
+        ]
+      }
+    ]
+  }

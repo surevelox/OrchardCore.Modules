@@ -40,20 +40,30 @@ Run the `cookbook.web` application. While Logged in as administrator, go to the 
 
 ![Evaluation License key](./images/license-evaluation.gif)
 
-Once enabled, you will see new menu named `Multi Tenancy`. It will add out-of-the-box Tenant Registration Pages. To configure `Registration Pages`, from the menu navigate to `Multi Tenancy > Settings > Registration Pages`. Here, the pages and registration flow can be customized.
+Once enabled, you will see new menu named `Multi Tenancy`. It will add out-of-the-box Tenant Registration Pages with one step "Finish". It will also add `Quick Start Recipes`. 
+
+![Tenant Registration Blank](./images/tenant-registration-blank.png)
+
+To configure `Registration Pages`, from the menu navigate to `Multi Tenancy > Settings > Registration Pages`. Here, the pages and registration flow can be customized.
+
+Lets checkout tenant registration pages available out-of-box. To add out-of-the-box tenant registration flow from recipe, navigate to `Configuration > Recipes`. On the `Recipes` page, under `Hosting` heading, select and run recipe `Quick Start: Tenant Registration Pages (No payments)`.
+
+![Tenant Registration Recipe](./images/tenant-registration-recipes.png)
+
+The successful execution of the recipe will create registration pages as below screenshot.
+
+:::tip Missing Core widgets?
+If your `Default` tenant is setup using SaaS recipe or any other setup recipe that dot not have core widgets content types like HTML, Liquid. Then you can create them by running recipe `Core Widgets`.
+:::
 
 ![Tenant Registration Pages](./images/tenant-registration-pages.gif)
 
-Lets check out-of-box Tenant registration flow.
-
-There are four steps. Each step provides flow widgets. The registration steps can be customized by adding/removing widgets and/or adding/removing steps.
-
- 
+There are total four steps created by recipe`Quick Start: Tenant Registration Pages (No payments)`. Each step provides customizable flow widgets. The registration steps can be customized by adding/removing widgets and/or adding/removing steps.
 
 - Account
     - Captures site details and admin credentials, admin's email and RecipeName from query string. 
 - Verify
-    - Verifies the email address provided in Account Step.
+    - Verifies the email address provided in Account Step.(**Note**: This steps sends verification code via Email and requires that you have email settings are configured properly.)
 - Personal
     - Captures personal details like First Name, Last Name, Contact Details. 
 - Finish (Review)
@@ -61,6 +71,15 @@ There are four steps. Each step provides flow widgets. The registration steps ca
 
 More steps can be added by clicking (+) Icon or steps can be deleted to customize sign up flow.
 
-Now, verify end-user experience should look like below.
+Now, let's verify verify How end-user will sign-up by selecting a plan, follow sign-up process and provision their tenant.
+
+ While application is running, navigate to `Pricing` page, select the plan and follow signup process.
+
+![Tenant Sign-up](./images/tenant-signup.gif)
 
 
+Congratulations! You have added tenant sign-up process in your website and tenant provisioning according to selected plan,
+
+What's Next
+
+Go to next section [Design Tenant Billing](./tenant-billing.md).
