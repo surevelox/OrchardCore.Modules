@@ -1,0 +1,37 @@
+{
+
+    "name": "silver",
+    "displayName": "Silver Plan",
+    "description": "Recipe for Silver Plan",
+    "author": "Surevelox Inc",
+    "website": "https://www.surevelox.com",
+    "version": "1.0",
+    "issetuprecipe": "true",
+    "categories": [ "Content Management" ],
+    "tags": [ "plan", "hidden" ],
+    "variables": {
+  
+    },
+    "steps": [
+      {
+        "name": "recipes",
+        "Values": [
+          {
+            "executionid": "comingsoon001",
+            "name": "ComingSoon"
+          }
+        ]
+      },
+      {
+        "name": "feature",
+        "enable": [
+  
+          "Surevelox.OrchardCore.Licensing",
+          "Surevelox.OrchardCore.DevicePreview"
+        ],
+        "disable": [
+          "OrchardCore.Deployment"
+        ]
+      }
+    ]
+  }

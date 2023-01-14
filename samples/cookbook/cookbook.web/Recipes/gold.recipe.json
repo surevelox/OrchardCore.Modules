@@ -1,0 +1,36 @@
+{
+    "name": "gold",
+    "displayName": "Gold Plan",
+    "description": "Recipe for Gold Plan",
+    "author": "Surevelox Inc",
+    "website": "https://www.surevelox.com",
+    "version": "1.0",
+    "issetuprecipe": "true",
+    "categories": [ "Content Management" ],
+    "tags": [ "plan", "hidden" ],
+    "variables": {
+  
+    },
+    "steps": [
+      {
+        "name": "recipes",
+        "Values": [
+          {
+            "executionid": "blog001",
+            "name": "Blog"
+          }
+        ]
+      },
+      {
+        "name": "feature",
+        "enable": [
+          "Surevelox.OrchardCore.Licensing",
+          "Surevelox.OrchardCore.DevicePreview",
+          "OrchardCore.Facebook",
+          "OrchardCore.Facebook.Login",
+          "OrchardCore.Google.GoogleAuthentication",
+          "OrchardCore.Seo"
+        ]
+      }
+    ]
+  }
