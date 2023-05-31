@@ -11,12 +11,12 @@ Supports
 
 
 Supported ASP,NET Core Frameworks
+- NET 7.0
 - NET 6.0
 
 ## What's New 
-- Supports OrchardCore CMS >= 1.3.0
-- Removed support for .NET 5 and .NETCore 3.1
-- Added support for license key. 
+- Supports OrchardCore CMS >= 1.6.0 with .NET 7 and .NET 6
+- Supports OrchardCore CMS >= 1.3.0 and <= 1.5.0 with .NET 6
 
 
 > If your Orchard Core deployment is running on Orchard Core CMS <= 1.2.2 then use version 1.2
