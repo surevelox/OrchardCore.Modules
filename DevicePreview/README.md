@@ -15,14 +15,13 @@ Supported orientation:
 - Portrait
 
 Supported ASP,NET Core Frameworks
-- NET 7.0
-- NET 6.0
+- NET 8.0
 
 ## What's New 
-- Supports OrchardCore CMS >= 1.6.0 with .NET 7 and .NET 6
-- Supports OrchardCore CMS >= 1.3.0 and <= 1.5.0 with .NET 6
+- Supports OrchardCore CMS >= 1.8.0 with .NET 8
  
-> If your Orchard Core deployment is running on Orchard Core CMS <= 1.3 then use version 1.2
+> If your Orchard Core deployment is running on Orchard Core CMS <= 1.7 then use previous version.
+
 
 ## Install
 
